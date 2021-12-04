@@ -71,6 +71,8 @@ form input:nth-child(2)::placeholder  {
     background-color: #3a64c7;
     color: #fff;
     font-size: 12pt;
+    border: none;
+    outline: none;
 }
 .acessar:hover {
     background-color: #2f57b3;
