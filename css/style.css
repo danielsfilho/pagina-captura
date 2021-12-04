@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 11%;
+    text-align: center;
+    width: 40%;
+    align-items: center;
+    top: 23%;
+    color: white;
+    position: relative;
+}
+
+.container img:nth-child(1) {
+    width: 80px;
+    
+}
+
+.container h1 {
+    font-size: 30pt;
+    
+}
+
+.container p {
+    font-size: 20pt;
+    
+}
+
+.gratuito-online {
+    font-size: 14pt;
+    font-weight: 600;
+    margin-top: 100px;
+    
+}
+
+.notification-email {
+    font-size: 10pt;
+}
+
+form input:nth-child(1),
+form input:nth-child(2) {
+    
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+form input:nth-child(1)::placeholder,
+form input:nth-child(2)::placeholder  {
+    
+    padding: 0 5px;
+    border: none;
+}
+
+.acessar {
+
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #3a64c7;
+    color: #fff;
+    font-size: 12pt;
+}
+.acessar:hover {
+    background-color: #2f57b3;
+}
